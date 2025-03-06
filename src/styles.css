@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(209, 228, 233);
+    padding: 15px;
+}
+
+.input-area {
+    background-color: blanchedalmond;
+    width: 200px;
+    padding: 5px;
+}
+
+.input {
+    margin: 4px;
+}
