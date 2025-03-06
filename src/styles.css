@@ -3,15 +3,19 @@ body {
     padding: 15px;
 }
 
+label {
+    font-family: "Funnel Display", sans-serif;
+}
+
 .input-area {
-    width: 250px;
+    width: 280px;
     padding: 5px;
 }
 
-.input-area label {
+.intro {
     font-family: "Funnel Display", sans-serif;
     font-weight: 300;
-    font-size: larger;
+    font-size: x-large;
     display: block;
     margin-bottom: 10px;
 }
@@ -22,4 +26,8 @@ body {
 
 .input-area button {
     margin-right: 10px;
+}
+
+.switch {
+    margin-top: 8px;
 }
