@@ -9,9 +9,9 @@ function InputArea() {
     return (
         <form className="input-area">
             <label className="intro">Welcome mi amorcito!</label>
-            <Input className="input" placeholder="Username..." variant="soft"/>
-            <Input className="input" placeholder="Password..." variant="soft"/>
-            {isRegistered && <Input className="input" placeholder="Please confirm your password..." variant="soft"/>}
+            <Input className="input" placeholder={isRegistered ? "Enter your new username." : "Username"} variant="soft"/>
+            <Input className="input" placeholder={isRegistered ? "Enter your new password." : "Password"} variant="soft"/>
+            {isRegistered && <Input className="input" placeholder="Please confirm your password." variant="soft"/>}
             <Button className="login-button">{isRegistered ? "Register" : "Login"}</Button>
             <label> New user? <Switch onChange={(event) => setIsRegistered(event.target.checked)}/></label>
         </form>
