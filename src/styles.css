@@ -8,7 +8,7 @@ label {
 }
 
 .input-area {
-    width: 280px;
+    width: 400px;
     padding: 5px;
 }
 
@@ -22,6 +22,7 @@ label {
 
 .input {
     margin-bottom: 8px;
+    width: 75%;
 }
 
 .input-area button {

@@ -8,7 +8,7 @@ function InputArea() {
 
     return (
         <form className="input-area">
-            <label className="intro">Welcome mi amorcito!</label>
+            <label className="intro">Welcome! Please sign in or register a new account.</label>
             <Input className="input" placeholder={isRegistered ? "Enter your new username." : "Username"} variant="soft"/>
             <Input className="input" placeholder={isRegistered ? "Enter your new password." : "Password"} variant="soft"/>
             {isRegistered && <Input className="input" placeholder="Please confirm your password." variant="soft"/>}
