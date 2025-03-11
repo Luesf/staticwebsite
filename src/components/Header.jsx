@@ -1,9 +1,8 @@
 import React from "react";
-import "./Header.css";
+import "./header.css";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import HomeIcon from '@mui/icons-material/Home';
 import MenuIcon from '@mui/icons-material/Menu';
-import { alignProperty } from "@mui/material/styles/cssUtils";
 
 function Header() {
     return (
