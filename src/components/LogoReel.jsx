@@ -1,5 +1,5 @@
 import React from "react";
-import "./LogoReel.css";
+import "./logoReel.css";
 import tikTokLogo from "../assets/tiktok.png";
 import facebookLogo from "../assets/facebook.png";
 import instagramLogo from "../assets/instagram.png";
