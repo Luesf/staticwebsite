@@ -1,0 +1,19 @@
+.reel-outer-container {
+    display: flex;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black, transparent);
+}
+
+.logo-reel-container {
+    display: flex;
+    padding: 20px;
+    gap: 112px;
+}
+
+.single-logo {
+    font-family: "Funnel Display", sans-serif;
+    font-weight: 1000;
+    color: darkgrey;
+    height: 32px;
+    width: auto;
+}

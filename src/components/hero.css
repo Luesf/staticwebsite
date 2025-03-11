@@ -1,0 +1,69 @@
+.hero {
+    font-family: "Funnel Display", sans-serif;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #ebc5a3);
+}
+
+.hero h1 {
+    font-size: 56px;
+    letter-spacing: 0.1px;
+    background: linear-gradient(to right, #e6c698, #CC95C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 24px;
+    color: dimgray;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.hero-buttons .button-buy {
+    font-family: "Funnel Display", sans-serif;
+    font-size: 14px;
+    background-color: #29242e;
+    color: white;
+    box-shadow: none;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.hero-buttons .button-learn {
+    display: flex;
+    gap: 4px;
+    font-family: "Funnel Display", sans-serif;
+    font-size: 14px;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.hero-logo {
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .hero-container {
+        display: flex;
+        justify-content: space-between;
+        height: 400px;
+    }
+    .hero-text-container {
+        width: 660px !important;
+        height: 400px;
+    }
+    .hero-logo {
+        width: 350px;
+        height: 350px;
+    }
+    .logo {
+        width: auto;
+        height: 100%;
+    }
+}

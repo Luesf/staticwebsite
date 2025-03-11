@@ -1,10 +1,17 @@
 import React from "react";
-import InputArea from "./components/InputArea";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import LogoReel from "./components/LogoReel";
+import Showcase from "./components/Showcase";
+import "./app.css";
 
 function App() {
   return (
     <div>
-      <InputArea />
+      <Header />
+      <Hero />
+      <LogoReel />
+      <Showcase />
     </div>
   )
 }

@@ -1,0 +1,60 @@
+header {
+    position: sticky;
+    top: 0;
+}
+
+.header-top {
+    background-color: #29242e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Funnel Display", sans-serif;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+.arrowRight {
+    padding-left: 20px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+.homeLogo {
+    padding: 25px;
+}
+
+.menuLogo {
+    padding: 25px;
+}
+
+.nav-bar {
+    font-family: "Funnel Display", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    opacity: 0.5;
+    padding-right: 50px;
+}
+
+.nav-bar a {
+    padding-right: 20px;
+}
+
+@media (min-width: 600px) {
+    .header-bottom .menuLogo {
+      display: none; 
+    }
+  }
+
+@media (max-width: 599px) {
+    .header-bottom .nav-bar {
+      display: none; 
+    }
+  }
+
+
