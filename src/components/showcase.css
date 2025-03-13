@@ -1,5 +1,5 @@
 .showcase-outer-container {
-    background: linear-gradient(to bottom, #ffffff 60%, #ebc5a3);
+    background: linear-gradient(to bottom, #ffffff 60%, #f7e1ce);
 }
 
 .showcase-container {
@@ -23,7 +23,7 @@
 
 .showcase-container h2 {
     text-align: center;
-    font-size: 48px;
+    font-size: 36px;
     letter-spacing: 0.1px;
     margin-top: 10px;
     background: linear-gradient(to right,  #e6c698, #CC95C0);
@@ -33,19 +33,47 @@
 
 .showcase-container p {
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
     color: dimgrey  ;
     letter-spacing: 0.1px;
 }
 
 .showcase-image {
-    display: flex;
-    margin: 25px;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    padding: 50px;
 }
 
 .showcase-image img {
-    height: 500px;
-    width: auto;
-    margin-bottom: 25px;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .showcase-container h2 {
+        font-size: 48px;
+    }
+    .showcase-container p {
+        font-size: 22px;
+    }
+    .showcase-image {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .showcase-image img {
+        height: 250px;
+        width: 180px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .showcase-image {
+        gap: 90px;
+    }
+    .showcase-image img {
+        height: 300px;
+        width: 225px;
+    }
 }

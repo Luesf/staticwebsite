@@ -21,7 +21,7 @@ function Hero() {
                 </div>
             </div>
             <div className="hero-logo">
-                <img src={Logo} alt="house heart" className="logo" width={350} height={350}/>
+                <img src={Logo} alt="house heart" className="logo" width={250} height={250}/>
             </div>
         </div>
     </div>
