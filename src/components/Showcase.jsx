@@ -1,8 +1,9 @@
 import React from "react";
 import "./showcase.css";
 import tetera from "../assets/tetera.jpg";
-import vaso from "../assets/vaso.jpg";
 import luces from "../assets/luces.jpg";
+import vaso from "../assets/vaso.jpg";
+
 
 function Showcase() {
     return (
