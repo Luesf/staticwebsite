@@ -1,7 +1,7 @@
 import React from "react";
 import "./showcase.css";
 import tetera from "../assets/tetera.jpg";
-import luces from "../assets/luces.jpg";
+import luces from "../assets/luces.JPG";
 import vaso from "../assets/vaso.jpg";
 
 
