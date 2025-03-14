@@ -1,0 +1,168 @@
+.pricing-text-container {
+    max-width: 600px;
+}
+
+.pricing-text-outer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pricing-container h2 {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.1px;
+    margin-top: 20px;
+    background: linear-gradient(to right,  #e6c698, #CC95C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing-container p {
+    text-align: center;
+    font-size: 16px;
+    color: dimgrey;
+    letter-spacing: 0.1px;
+}
+
+.pricing-card-container {
+    display: block;
+    justify-items: center;
+    padding-bottom: 40px;
+}
+
+.pricing-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: #F1F1F1 solid;
+    box-shadow: 2px 2px #F1F1F1;
+    max-width: 252px;
+}
+
+.pricing-card h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.unitPrice-block {
+    display: block;
+    font-size: 12px;
+}
+
+.sixPrice-block {
+    display: block;
+    font-size: 12px;
+}
+
+.unitPrice-block .unit-price {
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.unitPrice-block .unitText {
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.sixPrice-block .six-price {
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    font-size: 24px;
+    background: linear-gradient(to right,  #e6c698 5%, #CC95C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sixPrice-block .sixText {
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.pricing-container ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.pricing-container li {
+    display: flex;
+    gap: 12px;
+}
+
+.pricing-card button {
+    width: 100%;
+    font-family: "Funnel Display", sans-serif;
+    font-size: 16px;
+    background-color: #29242e;
+    color: white;
+    box-shadow: none;
+    border: none;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .pricing-container h2 {
+        font-size: 48px;
+    }
+    .pricing-container p {
+        font-size: 22px;
+    }
+    .pricing-card {
+        max-width: 350px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .pricing-card h3 {
+        font-size: 26px;
+    }
+    .unitPrice-block .unit-price {
+        font-size: 30px;
+    }
+    .sixPrice-block .six-price {
+        font-size: 30px;
+    }
+    .unitPrice-block .unitText {
+        font-size: 16px;
+    }
+    .sixPrice-block .sixText {
+        font-size: 16px;
+    }
+    .pricing-container li {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pricing-text-container {
+        max-width: 800px;
+    }
+    .pricing-card-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .pricing-card {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .unitPrice-block {
+        padding-top: 20px;
+    }
+    .pricing-container ul {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

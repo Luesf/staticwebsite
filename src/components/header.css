@@ -25,18 +25,17 @@ header {
 
 .header-bottom {
     display: flex;
-    margin: 10px;
     justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(3px);
 }
 
 .homeLogo {
-    padding-left: 15px;
+    padding: 15px;
 }
 
 .menuLogo {
-    padding-right: 15px;
+    padding: 15px;
 }
 
 .nav-bar {
