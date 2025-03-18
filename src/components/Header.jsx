@@ -8,7 +8,7 @@ function Header() {
     return (
         <header>
             <div className="header-top">
-                <p>Click here to open our catalog</p>
+                <p>Click click!</p>
                 <ArrowForwardIcon className="arrowRight"/>
             </div>
             <div className="header-bottom">

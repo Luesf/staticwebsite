@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import LogoReel from "./components/LogoReel";
 import Showcase from "./components/Showcase";
 import Pricing from "./components/Pricing";
+import Users from "./components/Users";
 import "./app.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <LogoReel />
       <Showcase />
       <Pricing />
+      <Users />
     </div>
   )
 }

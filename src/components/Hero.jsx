@@ -13,9 +13,9 @@ function Hero() {
                     <p className="hero-text">Tienda de productos especialmente escogidos para hacer o mejorar tu hogar de forma unica.</p>
                 </div>
                 <div className="hero-buttons">
-                    <button className="button-buy">Buy products</button>
+                    <button className="button-buy">Comprar</button>
                     <button className="button-learn">
-                        <span>Learn more</span>
+                        <span>Acerca de nosotros</span>
                         <KeyboardArrowRightIcon fontSize="medium"/>
                     </button>
                 </div>
