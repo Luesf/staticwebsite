@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
-import "./Footer.css";
+import "./footer.css";
 
 function Footer() {
     return (
