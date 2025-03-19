@@ -8,18 +8,18 @@ function Header() {
     return (
         <header>
             <div className="header-top">
-                <p>Click click!</p>
+                <p>Click aqui para ver catalogo</p>
                 <ArrowForwardIcon className="arrowRight"/>
             </div>
             <div className="header-bottom">
                 <HomeIcon className="homeLogo" fontSize="large"/>
                 <MenuIcon className="menuLogo" />
                 <nav className="nav-bar">
-                    <a>About</a>
-                    <a>Products</a>
-                    <a>Customers</a>
-                    <a>Updates</a>
-                    <a>Help</a>
+                    <a>Acerca de nosotros</a>
+                    <a>Productos</a>
+                    <a>Clientes</a>
+                    <a>Noticias</a>
+                    <a>Ayuda</a>
                 </nav>
             </div>
         </header>

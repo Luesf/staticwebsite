@@ -5,6 +5,7 @@ import LogoReel from "./components/LogoReel";
 import Showcase from "./components/Showcase";
 import Pricing from "./components/Pricing";
 import Users from "./components/Users";
+import Footer from "./components/Footer";
 import "./app.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Showcase />
       <Pricing />
       <Users />
+      <Footer />
     </div>
   )
 }

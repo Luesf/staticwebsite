@@ -4,17 +4,17 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const comments = [
     {
-        text: "Ya realice mi pedido y estoy muy satisfecha con el producto, la calidad es excelente.",
+        text: "GGs",
         name: "Client Name",
         username: "@randomuser1"
     },
     {
-        text: "Comment comment comment comment!",
+        text: "Ya realice mi pedido y estoy muy satisfecha con el producto, la calidad es excelente.",
         name: "Client Name",
         username: "@randomuser2"
     },
     {
-        text: "Todo good.",
+        text: "Ya realice mi pedido y estoy muy satisfecha con el producto, la calidad es excelente.",
         name: "Client Name",
         username: "@randomuser3"
     },
@@ -24,22 +24,22 @@ const comments = [
         username: "@randomuser4"
     },
     {
-        text: "Ggs",
+        text: "Ya realice mi pedido y estoy muy satisfecha con el producto, la calidad es excelente.",
         name: "Client Name",
         username: "@randomuser5"
     },
     {
-        text: "Ya realice mi pedido y estoy muy satisfecha con el producto, la calidad es excelente.",
+        text: "Ya realice mi pedido y estoy muy satisfecha con el producto.",
         name: "Client Name",
         username: "@randomuser6"
     },
     {
-        text: "Ya estuvo ya",
+        text: "Ya realice mi pedido y estoy muy satisfecha con el producto, la calidad es excelente.",
         name: "Client Name",
         username: "@randomuser7"
     },
     {
-        text: "TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT",
+        text: "Comment Comment.",
         name: "Client Name",
         username: "@randomuser8"
     },
